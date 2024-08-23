@@ -1,6 +1,6 @@
 :root {
   --cinza: #ebebec;
-  --preto: #27272727;
+  --preto: #272727;
   --rosa: #F86197;
   --verde: #36b59f;
 }
@@ -9,10 +9,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: var(--rosa);
 }
 
 body, input, textarea, button {
