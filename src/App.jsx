@@ -1,17 +1,22 @@
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
+import styles from "./App.module.css"
+import TaskList from "./components/TaskList/TaskList";
 
 function App() {
   return (
-    <>
+    <div className={styles.App}>
       <Header></Header>
       <Main>
-        <h3>Conteúdo</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium distinctio nobis illum rem voluptatum quasi minima eius itaque culpa dolores incidunt voluptate aut iusto dolorem sit, ut suscipit labore?</p>
+        <form action="">
+          <input type="text" />
+          <button>+</button>
+        </form>
+        <TaskList></TaskList>
       </Main>
       <Footer autor="Nati"/>
-    </>
+    </div>
   );
 }
 
